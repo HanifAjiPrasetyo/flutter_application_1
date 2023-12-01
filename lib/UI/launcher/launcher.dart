@@ -50,7 +50,9 @@ class _LauncherPageState extends State<LauncherPage> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [Colors.blue.shade800, Colors.blue.shade600])),
-        child: Center(child: CircularProgressIndicator(),),
+        child: Center(
+          child: CircularProgressIndicator(),
+        ),
       ),
     );
   }
